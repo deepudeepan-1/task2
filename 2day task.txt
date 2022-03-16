@@ -1,0 +1,39 @@
+                            
+                           DAY_ 2 (TASK) 
+
+1. Difference between Browser js   vs Node js
+
+   BROWSER jS:
+   
+   1. Where we can execute our javascript code with the help of console.
+   2. Browserjs (sandboxed), which means embedded.
+   3. console is a example for browserjs.
+   4. To run Browserjs we need <script>filename.js</script>.
+   5.Here  javascript runs in front end. 
+
+   NODE JS: 
+  
+   1. kind of application has to be install in our local system , then a parse should be setup to execute the program.
+   2. Nodejs is (stripped),which means it is separate application.
+   3. Guvi IDE example of nodejs.
+   4. Syntax to run Nodejs is (node filename.js).
+   5. Here javascript runs in back end. 
+
+2. How does the browser rendering a website ?
+
+   1.Rendering means display(showing) something, HTML parser and CSS parser layout that render tree.then it will paint according to our data.
+   2.if we make a mistake  other languages will throw an error whereas HTML will recover it.
+   3.html parser handles even we missed some improper tag its shows output.
+   4.css object model and that will go into and create whats called the render.
+   5.multiple trees like Render objects , Render styles, Render layers ,Line boxes.
+
+4. different type of data is there we can find what type of data we have given by using typeof.
+   console.log(typeof(1));        =>this is NUMBER data type.
+   console.log(typeof(1.1));      => this is float number but in javascript is considered as NUMBER data type.
+   console.log(typeof('1.1'));    =>this is STRING data type , anything between single and double quotes is string.
+   console.log(typeof(true));     =>this is BOOLEAN data type , it gives true or false. 
+   console.log(typeof(null));     =>this is OBJECT data type.
+   console.log(typeof(undefined));=>this is UNDEFINED data type, where we declare a variable but we didnt access or assign it.
+   console.log(typeof([]));       =>this is an OBJECT data type , where we can store multiple data in different types. 
+   console.log(typeof({}));       =>this is an OBJECT data type , where we can store multiple  data in key pair value 
+   console.log(typeof(NaN));      =>this is NUMBER data type
